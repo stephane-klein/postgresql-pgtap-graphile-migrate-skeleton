@@ -1,0 +1,21 @@
+{
+	"name": "my-app",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"migrate:reset": "graphile-migrate reset --erase",
+		"migrate:status": "graphile-migrate status",
+		"migrate:migrate": "graphile-migrate migrate",
+		"migrate:commit": "graphile-migrate commit",
+		"migrate:watch": "graphile-migrate watch",
+		"migrate-test:reset": "graphile-migrate --config=.gmrc-test reset --erase",
+		"migrate-test:status": "graphile-migrate --config=.gmrc-test status",
+		"migrate-test:migrate": "graphile-migrate --config=.gmrc-test migrate",
+		"migrate-test:commit": "graphile-migrate --config=.gmrc-test commit",
+		"migrate-test:watch": "graphile-migrate --config=.gmrc-test watch"
+	},
+	"type": "module",
+	"dependencies": {
+		"graphile-migrate": "1.4.1"
+	}
+}
