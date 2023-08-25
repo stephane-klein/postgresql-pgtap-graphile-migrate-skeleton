@@ -20,6 +20,8 @@ Important details:
  
 
 ```sh
+$ asdf install
+$ pnpm install
 $ ./scripts/init.sh
 ```
 
